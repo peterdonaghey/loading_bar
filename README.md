@@ -15,7 +15,7 @@
 Currently, the package is not hosted on PyPI, so you can install it directly from the source:
 
 ```bash
-git clone https://github.com/your-github-username/loading_bar.git
+git clone https://github.com/peterdonaghey/loading_bar.git
 cd loading_bar
 pip install .
 ```
@@ -38,10 +38,14 @@ for i in range(total):
 You can customize the loading bar by adjusting the following parameters:
 
 `i`: Current iteration (int).
+
 `total`: Total iterations (int).
+
 `length`: Length of the loading bar (default is 50).
+
 `show_percentage`: Flag to show or hide percentage (default is True).
-show_iterations: Flag to show or hide iterations completed (default is True).
+
+`show_iterations`: Flag to show or hide iterations completed (default is True).
 
 ## License
 
